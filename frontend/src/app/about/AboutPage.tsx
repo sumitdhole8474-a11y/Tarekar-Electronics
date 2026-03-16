@@ -246,43 +246,7 @@ export default function AboutPage() {
   </div>
 </section>
 
-      {/* CALL TO ACTION */}
-      <section className="py-32 px-6">
-        <div className="max-w-6xl mx-auto bg-slate-900 rounded-[3rem] p-12 md:p-24 relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 blur-[100px] rounded-full" />
-          
-          <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
-            <div>
-              <h2 className="text-white text-4xl md:text-5xl font-bold mb-6 leading-tight">Experience Excellence in Person.</h2>
-              <p className="text-slate-400 text-lg mb-8 font-light">
-                Visit our showroom at Rajkamal Square to explore the latest innovations in smart home technology.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <a href="tel:9270727029" className="bg-white text-slate-900 px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 hover:bg-indigo-50 transition-colors">
-                  <Phone className="w-4 h-4" /> Call Specialist
-                </a>
-                <button className="border border-slate-700 text-white px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 hover:bg-white/5 transition-all">
-                  Get Directions <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-sm">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-indigo-500/20 rounded-xl text-indigo-400"><MapPin className="w-6 h-6" /></div>
-                <div className="text-left">
-                  <h5 className="text-white font-bold text-xl">Amravati Flagship</h5>
-                  <p className="text-slate-400">Rajkamal Square, Main Road</p>
-                </div>
-              </div>
-              <div className="pt-4 border-t border-white/5 text-left">
-                <p className="text-slate-500 text-sm uppercase tracking-widest font-bold">Open Daily</p>
-                <p className="text-white font-medium">10:00 AM — 9:00 PM</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
       {/* LATEST BLOGS */} 
       <LatestBlogs />
       <footer className="py-12 border-t border-slate-100 text-center">
