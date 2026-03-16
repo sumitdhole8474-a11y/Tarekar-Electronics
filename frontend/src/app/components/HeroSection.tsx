@@ -47,7 +47,7 @@ export default function PremiumHero() {
       setCurrentIndex((prev) =>
         prev === images.length - 1 ? 0 : prev + 1
       );
-    }, 5000);
+    }, 1000);
 
     return () => clearInterval(timer);
   }, [images]);
