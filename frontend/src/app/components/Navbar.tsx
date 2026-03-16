@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronRight } from "lucide-react";
+import LogoImg from "@/assets/tarekarlogo.png";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -67,7 +68,7 @@ export default function Navbar() {
             >
               <div className="shrink-0 transition-transform group-hover:scale-105">
               <Image
-  src="/tlogo.png"
+ src={LogoImg}
   alt="Tarekar Raadios Logo"
   width={65}
   height={65}
